@@ -15,10 +15,10 @@ void setup()
 void loop() 
 {
   Serial.begin(115200);
-  Serial.println("high");
+  Serial.println("HIGHv2");
   //digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
   delay(1000);                       // wait for a second
-  Serial.println("low");
+  Serial.println("LOWv2");
   //digitalWrite(LED_BUILTIN, LOW);    // turn the LED off by making the voltage LOW
   delay(1000);                       // wait for a second
 }
