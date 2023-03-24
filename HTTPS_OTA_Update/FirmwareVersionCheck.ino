@@ -1,7 +1,7 @@
 int FirmwareVersionCheck(void) {
   String payload;
   int httpCode;
-  String fwurl = ""
+  String fwurl = "https://raw.githubusercontent.com/alogusAdam/OTATest/main/HTTPS_OTA_Update/bin_version.txt";
   WiFiClientSecure * client = new WiFiClientSecure;
 
   if (client) 
